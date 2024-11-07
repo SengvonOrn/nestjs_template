@@ -1,0 +1,14 @@
+## Find Song Request
+
+GET http://localhost:3000/songs/1
+
+### Create New Songs Request
+
+POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+"artists": ["Sigla"],
+"releasedDate" : "2024-10-07",
+"duration" :"09:40"
+}
